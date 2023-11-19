@@ -1,0 +1,11 @@
+apiVersion: custom.ctrl/v1
+kind: Redundancy
+metadata:
+  name: hello
+spec:
+  replicas: 3
+  template:
+    spec:
+      containers:
+      - name: hello
+        image: "baytan/app:lastest"
