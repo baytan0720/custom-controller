@@ -1,4 +1,4 @@
-BINARY_NAME=redundancy-controller
+BINARY_NAME=controller
 
 all: go_module build
 

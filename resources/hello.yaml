@@ -1,4 +1,4 @@
-apiVersion: custom.ctrl/v1
+apiVersion: custom.controller/v1
 kind: Redundancy
 metadata:
   name: hello

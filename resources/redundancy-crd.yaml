@@ -1,9 +1,9 @@
 apiVersion: apiextensions.k8s.io/v1
 kind: CustomResourceDefinition
 metadata:
-  name: redundancies.custom.ctrl
+  name: redundancies.custom.controller
 spec:
-  group: custom.ctrl
+  group: custom.controller
   versions:
     - name: v1
       served: true
